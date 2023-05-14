@@ -1,0 +1,43 @@
+.main-nosotros{
+    .section-nosotros{
+        .historia{
+            font-family: $font-family;
+            font-size: 50px;
+            text-align: center;
+            color: rgb(48, 45, 48);
+        }
+        .desarrollo-hitoria{
+            font-family: $font-family;
+            font-size: 20px;  
+            text-align: center;
+            font-style: italic;
+            color: rgb(61, 54, 44);
+        }
+    }
+
+}
+
+  
+  .iframe-googleMaps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    .titulo-ubicación{
+        font-family: 'Alkatra', cursive;
+        font-size: 50px;
+        color: rgb(61, 54, 44);
+        margin: 40px;
+        text-align: center;
+      }
+      
+      .google-maps{
+        width: 600px;
+        margin-top: 15px;
+        margin-bottom: 20px;
+      }
+
+}
+  
+  

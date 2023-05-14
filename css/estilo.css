@@ -1,0 +1,307 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body {
+  background-color: rgba(209, 206, 206, 0.226);
+}
+
+.header-personalizado {
+  margin-bottom: 10px;
+}
+
+.titulo-contacto {
+  margin: 20px;
+  text-align: center;
+  border: dotted 2px black;
+}
+
+.nav-personalizado {
+  border-bottom: none;
+}
+
+footer {
+  background-color: rgb(187, 177, 177);
+  display: flex;
+  margin-bottom: 0px;
+  justify-content: space-around;
+  width: 100%;
+}
+footer .titulo-footer {
+  margin-top: 10px;
+  font-family: "Alkatra", cursive;
+  color: black;
+  text-align: center;
+}
+footer .logos-redes {
+  padding: 5px;
+  width: 50px;
+}
+
+.titulo-productos {
+  font-family: "Alkatra", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: rgb(48, 45, 48);
+}
+
+.main-productos {
+  background-image: "";
+}
+
+.main-nosotros .section-nosotros .historia {
+  font-family: "Alkatra", cursive;
+  font-size: 50px;
+  text-align: center;
+  color: rgb(48, 45, 48);
+}
+.main-nosotros .section-nosotros .desarrollo-hitoria {
+  font-family: "Alkatra", cursive;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: rgb(61, 54, 44);
+}
+
+.iframe-googleMaps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.iframe-googleMaps .titulo-ubicación {
+  font-family: "Alkatra", cursive;
+  font-size: 50px;
+  color: rgb(61, 54, 44);
+  margin: 40px;
+  text-align: center;
+}
+.iframe-googleMaps .google-maps {
+  width: 600px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+button {
+  overflow: visible;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input, select, textarea {
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+#container h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+#container .underline {
+  border-bottom: solid 2px #474544;
+  margin: -0.512em auto;
+  width: 80px;
+}
+#container form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+#container form .name {
+  float: left;
+  width: 45%;
+}
+#container form .email {
+  float: right;
+  width: 45%;
+}
+#container form input[type=text], #container form [type=email], #container form select, #container form textarea {
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+  font-size: 1em;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0em 0 1.875em 0;
+  padding: 0 0 0.875em 0;
+  text-transform: uppercase;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#container form input[type=text]:focus, #container form [type=email]:focus, #container form textarea:focus {
+  outline: none;
+  padding: 0 0 0.875em 0;
+}
+#container form .telephone {
+  width: 100%;
+}
+#container form .subject {
+  width: 100%;
+}
+#container form .subject select {
+  background: url("https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png") no-repeat right;
+  outline: none;
+}
+#container form .subject select::-ms-expand {
+  display: none;
+}
+#container form .message {
+  float: none;
+}
+#container form .message textarea {
+  line-height: 150%;
+  height: 150px;
+  resize: none;
+  width: 100%;
+}
+#container form .message textarea {
+  overflow: auto;
+}
+#container form .submit input {
+  line-height: normal;
+}
+#container form .submit #form_button {
+  background: none;
+  border: solid 2px #474544;
+  color: #474544;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica", Arial, sans-serif;
+  font-size: 0.875em;
+  font-weight: bold;
+  outline: none;
+  padding: 20px 35px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+#container form .submit #form_button:hover {
+  background: #474544;
+  color: #F2F3EB;
+}
+#container form ::-webkit-input-placeholder {
+  color: #474544;
+}
+#container form :-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+#container form ::-moz-placeholder {
+  color: #474544;
+  opacity: 1;
+}
+#container form :-ms-input-placeholder {
+  color: #474544;
+}
+#container form button {
+  overflow: visible;
+}
+
+@media screen and (max-width: 768px) {
+  #container {
+    margin: 20px auto;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 26px;
+  }
+  .underline {
+    width: 68px;
+  }
+  #form_button {
+    padding: 15px 25px;
+  }
+}
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 18px;
+  }
+  .icon {
+    height: 35px;
+    width: 35px;
+  }
+  .underline {
+    width: 53px;
+  }
+  input[type=text], [type=email], select, textarea {
+    font-size: 0.875em;
+  }
+}
+.titulo-proveedores {
+  font-family: "Alkatra", cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 50px;
+  color: rgb(48, 45, 48);
+  margin-top: 10px;
+}
+
+.maquetacion-logos-proovedores {
+  max-width: 800px;
+  padding: 1rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 1rem;
+}
+.maquetacion-logos-proovedores .item-a {
+  grid-row: 1/4;
+  grid-column: 1/3;
+}
+.maquetacion-logos-proovedores .item-a .imagens-proovedores {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.maquetacion-logos-proovedores .item-b {
+  grid-column: 1/3;
+}
+.maquetacion-logos-proovedores .item-c {
+  grid-row: 1/1;
+  grid-column: 3/5;
+}
+.maquetacion-logos-proovedores .item-d {
+  grid-column: 3/5;
+  grid-row: 2/5;
+}
+.maquetacion-logos-proovedores .imagens-proovedores {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=estilo.css.map */

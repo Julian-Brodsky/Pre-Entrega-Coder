@@ -1,0 +1,27 @@
+footer{
+    background-color: rgb(187, 177, 177) ;
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: space-around;
+    width: 100%;
+
+    .titulo-footer{
+        margin-top: 10px;
+        font-family: $font-family;
+        color: black;
+        text-align: center;
+    }
+
+    .logos-redes{
+        padding: 5px;
+        width: 50px;
+      }
+    
+  }
+
+
+
+
+ 
+  
+  
