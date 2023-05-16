@@ -1,0 +1,15 @@
+.secciones-home{
+    .titulo-home{
+      @extend .titulo-proveedores;
+      font-family: $font-family;
+      border-top: 5px rgb(116, 105, 105) groove;
+    }
+  }
+  
+  
+  .contenedor-secciones-home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }

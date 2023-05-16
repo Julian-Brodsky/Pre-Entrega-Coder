@@ -37,6 +37,18 @@ footer .logos-redes {
   width: 50px;
 }
 
+.secciones-home .titulo-home {
+  font-family: "Alkatra", cursive;
+  border-top: 5px rgb(116, 105, 105) groove;
+}
+
+.contenedor-secciones-home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .titulo-productos {
   font-family: "Alkatra", cursive;
   text-align: center;
@@ -260,7 +272,7 @@ button, input, select, textarea {
     font-size: 0.875em;
   }
 }
-.titulo-proveedores {
+.titulo-proveedores, .secciones-home .titulo-home {
   font-family: "Alkatra", cursive;
   text-align: center;
   margin-bottom: 20px;
