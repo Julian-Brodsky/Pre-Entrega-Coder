@@ -93,6 +93,11 @@ footer .logos-redes {
   margin-top: 15px;
   margin-bottom: 20px;
 }
+@media screen and (max-width: 500px) {
+  .iframe-googleMaps .google-maps {
+    width: 80vw;
+  }
+}
 
 html {
   font-family: "Montserrat", Arial, sans-serif;
